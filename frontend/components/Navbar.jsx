@@ -9,10 +9,10 @@ function Navbar() {
           <div className=' flex gap-4'>
             <a
               href='/signin'
-              className=' flex p-1 rounded-md pl-4 pr-4 font-semibold cursor-pointer text-2xl text-indigo-900'>Sign In</a>
+              className=' flex p-1 rounded-md pl-4 pr-4 font-bold cursor-pointer text-2xl text-indigo-900'>Sign In</a>
             <a
               href='/signup'
-              className=' flex p-1 rounded-md pl-4 pr-4 font-semibold cursor-pointer text-2xl text-indigo-900' >Sign Up</a>
+              className=' flex p-1 rounded-md pl-4 pr-4 font-bold cursor-pointer text-2xl text-indigo-900' >Sign Up</a>
           </div>
         </div>
       </div>
