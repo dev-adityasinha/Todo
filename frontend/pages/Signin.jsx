@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import { Link } from "react-router-dom"
 function Signin() {
     const [email, setEmail] = useState()
     const [password, setPassword] = useState()
@@ -8,7 +8,9 @@ function Signin() {
             <div className='border h-screen w-screen flex align-middle items-center justify-center'>
                 <div className='border-2 h-[435px] w-[400px] rounded-lg'>
                     <div className='h-[100px] w-[400px] flex align-middle justify-center'>
-                        <img src="https://img.freepik.com/premium-vector/checklist-clipboard-pencil-icon_736051-1227.jpghttps://img.freepik.com/premium-vector/checklist-clipboard-pencil-icon_736051-1227.jpg" className="mt-2" alt="todo icon" loading='lazy' />
+                        <Link to={"/"}>
+                            <img src="https://img.freepik.com/premium-vector/checklist-clipboard-pencil-icon_736051-1227.jpghttps://img.freepik.com/premium-vector/checklist-clipboard-pencil-icon_736051-1227.jpg" className="mt-2 h-[100px]" alt="todo icon" loading='lazy'/>
+                        </Link>
                     </div>
                     <div className='h-[400px] w-[400px]'>
                         <div className='flex flex-col align-middle p-4 mb-8'>
