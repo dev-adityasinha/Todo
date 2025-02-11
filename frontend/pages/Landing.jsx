@@ -10,7 +10,6 @@ function Landing() {
 
 				<img src="https://img.freepik.com/premium-vector/checklist-clipboard-pencil-icon_736051-1227.jpg" alt="Todo App" className=" mx-auto rounded-lg shadow-lg h-[500px]" loading="lazy" />
 				< section />
-
 				{/* <!-- Features Section --> */}
 				< section className="py-20 px-6 bg-white " >
 					<div className="max-w-4xl mx-auto text-center">
@@ -32,7 +31,6 @@ function Landing() {
 						</div>
 					</div>
 				</ section>
-
 				{/* <!-- CTA Section --> */}
 				{/* < section classNameName="py-28 text-center bg-indigo-500 text-white border px-8" >
 					<h2 className="text-3xl font-semibold">Start Organizing Today!</h2>
@@ -40,12 +38,10 @@ function Landing() {
 					<a href="/signup" className="mt-4 inline-block bg-white text-indigo-600 px-6 py-3 rounded-lg shadow-md hover:bg-gray-100">Sign Up</a>
 					<a href="/signup" className="mt-4 inline-block bg-white text-indigo-600 px-6 py-3 rounded-lg shadow-md hover:bg-gray-100">Sign In</a>
 				</section > */}
-
 				{/* <!-- Footer --> */}
-					<footer>
-						<p className="mb-6">Made with 💗 by Aditya Sinha</p>
-					</footer>
-
+				<footer>
+					<p className="mb-6">Made with 💗 by Aditya Sinha</p>
+				</footer>
 			</section>
 		</>
 	)

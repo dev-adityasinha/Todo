@@ -21,12 +21,9 @@ function Signup() {
                             <input type="text" name='password' id='' className='h-[40px] border p-2 rounded-md' onChange={(e) => setPassword(e.target.value)} />
                             <button className='border mt-8 h-[50px] text-2xl rounded-md align-middle justify-center font-semibold bg-blue-950 text-white cursor-pointer'>Sign Up</button>
                             <p className='text-center mt-2'>Have an account? <a href="/signin">Sign In</a></p>
-
                         </div>
-
                     </div>
                 </div>
-
             </div >
         </>
     )
