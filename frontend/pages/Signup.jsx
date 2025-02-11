@@ -17,11 +17,11 @@ function Signup() {
                     <div className='h-[400px] w-[400px]'>
                         <div className='flex flex-col align-middle p-4 mb-6'>
                             <label htmlFor="username" className='text-2xl font-semibold'>Username</label>
-                            <input type="text" name="username" id="" className='h-[40px] border p-2 rounded-md mb-4' onChange={(e) => setUsername(e.target.value)} />
+                            <input type="text" value={username} name="username" id="" className='h-[40px] border p-2 rounded-md mb-4' onChange={(e) => setUsername(e.target.value)} />
                             <label htmlFor="email" className='text-2xl font-semibold'>Email</label>
-                            <input type="email" name="email" id="" className='h-[40px] p-2 border rounded-md' onChange={(e) => setEmail(e.target.value)} />
+                            <input type="email" value={email} name="email" id="" className='h-[40px] p-2 border rounded-md' onChange={(e) => setEmail(e.target.value)} />
                             <label htmlFor='password' className='text-2xl mt-4 font-semibold'>Password</label>
-                            <input type="text" name='password' id='' className='h-[40px] border p-2 rounded-md' onChange={(e) => setPassword(e.target.value)} />
+                            <input type="text" value={password} name='password' id='' className='h-[40px] border p-2 rounded-md' onChange={(e) => setPassword(e.target.value)} />
                             <button className='border mt-8 h-[50px] text-2xl rounded-md align-middle justify-center font-semibold bg-blue-950 text-white cursor-pointer'>Sign Up</button>
                             <p className='text-center mt-2'>Have an account? <a href="/signin">Sign In</a></p>
                         </div>
