@@ -14,7 +14,7 @@ function Landing() {
 				{/* <!-- Features Section --> */}
 				< section className="py-20 px-6 bg-white " >
 					<div className="max-w-4xl mx-auto text-center">
-						<h2 className="text-3xl font-semibold text-gray-900 ">Why Choose Our To-Do App?</h2>
+						<h2 className="text-3xl font-semibold text-indigo-900">Why Choose Our To-Do App?</h2>
 						<p className="mt-2 text-gray-600 ">Designed for simplicity and efficiency.</p>
 						<div className="grid md:grid-cols-3 gap-8 mt-10">
 							<div className="p-6 bg-gray-100 rounded-lg">
