@@ -6,7 +6,8 @@ function Signup() {
             <div className='border h-screen w-screen flex align-middle items-center justify-center'>
                 <div className='border-2 h-[500px] w-[400px] rounded-lg'>
                     <div className='h-[100px] w-[400px] flex justify-center'>
-                        <img src="https://img.freepik.com/premium-vector/checklist-clipboard-pencil-icon_736051-1227.jpghttps://img.freepik.com/premium-vector/checklist-clipboard-pencil-icon_736051-1227.jpg" className="mt-2" alt="" />                    </div>
+                        <img src="https://img.freepik.com/premium-vector/checklist-clipboard-pencil-icon_736051-1227.jpghttps://img.freepik.com/premium-vector/checklist-clipboard-pencil-icon_736051-1227.jpg" className="mt-2" alt="todo icon" loading='lazy' />
+                    </div>
                     <div className='h-[400px] w-[400px]'>
                         <div className='flex flex-col align-middle p-4 mb-6'>
                             <label htmlFor="username" className='text-2xl font-semibold'>Username</label>

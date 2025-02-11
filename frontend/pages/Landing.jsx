@@ -8,7 +8,7 @@ function Landing() {
 				<h1 className="text-4xl font-bold text-indigo-900">Stay Organized, Stay Productive</h1>
 				<p className="mt-4 text-lg text-gray-600">A simple and efficient To-Do app to help you get things done.</p>
 
-				<img src="https://img.freepik.com/premium-vector/checklist-clipboard-pencil-icon_736051-1227.jpg" alt="Todo App" className=" mx-auto rounded-lg shadow-lg h-[500px]" />
+				<img src="https://img.freepik.com/premium-vector/checklist-clipboard-pencil-icon_736051-1227.jpg" alt="Todo App" className=" mx-auto rounded-lg shadow-lg h-[500px]" loading="lazy" />
 				< section />
 
 				{/* <!-- Features Section --> */}
