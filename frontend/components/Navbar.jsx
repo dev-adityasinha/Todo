@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
   return (
     <>
-      <div className='border-b-1 border-indigo-900 rounded-2xl'>
+      <div className='border-b-2 border-indigo-900 rounded-2xl'>
         <div className='h-[70px] flex justify-between items-center text-xl p-4'>
           <h1 className='text-[2.5rem] font-bold cursor-pointer pl-4 text-indigo-900'>Todo</h1>
           <div className=' flex gap-4'>

@@ -5,8 +5,8 @@ function Signin() {
         <>
             <div className='border h-screen w-screen flex align-middle items-center justify-center'>
                 <div className='border-2 h-[435px] w-[400px] rounded-lg'>
-                    <div className='h-[100px] w-[400px] flex'>
-                        <h1 className='flex text-3xl items-center align-middle justify-center w-[400px] font-bold'>Logo</h1>
+                    <div className='h-[100px] w-[400px] flex align-middle justify-center'>
+                        <img src="https://img.freepik.com/premium-vector/checklist-clipboard-pencil-icon_736051-1227.jpghttps://img.freepik.com/premium-vector/checklist-clipboard-pencil-icon_736051-1227.jpg" className="mt-2" alt="" />
                     </div>
                     <div className='h-[400px] w-[400px]'>
                         <div className='flex flex-col align-middle p-4 mb-8'>
@@ -14,8 +14,8 @@ function Signin() {
                             <input type="email" name="email" id="" className='h-[40px] p-2 border rounded-md' />
                             <label htmlFor='password' className='text-2xl mt-4 font-semibold'>Password</label>
                             <input type="text" name='password' id='' className='h-[40px] border p-2 rounded-md' />
-                            <button className='border mt-8 h-[50px] text-2xl rounded-md align-middle justify-center font-semibold bg-blue-950 text-white'>Sign In</button>
-                            <p className='text-center mt-2'>Don't have an account? <a href="">Sign Up</a></p>
+                            <button className='border mt-8 h-[50px] text-2xl rounded-md align-middle justify-center font-semibold bg-blue-950 text-white cursor-pointer'>Sign In</button>
+                            <p className='text-center mt-2'>Don't have an account? <a href="/signup">Sign Up</a></p>
                         </div>
 
                     </div>
